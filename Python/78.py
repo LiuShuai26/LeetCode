@@ -1,3 +1,9 @@
+# 给一个不同数字的集合，求所有可能的子集
+# 用dfs探索每一个可能的子集
+# dfs需要一个数组记录该位置是否被访问
+# 需要step变量记录当前位置
+
+
 class Solution:
 
     def subsets(self, nums):

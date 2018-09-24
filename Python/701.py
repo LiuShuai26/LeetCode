@@ -1,3 +1,6 @@
+# 给一个二叉搜索树，和一个数，将数插入二叉搜索树
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):

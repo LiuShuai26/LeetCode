@@ -1,3 +1,8 @@
+# 返回N个结点的满二叉树的所有可能情况
+# 用一个词典存每个数量的结点全部可能的满二叉树
+# 递归枚举左右子树的不同情况，相当于递推 推到N的结点的情况
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):

@@ -6,6 +6,9 @@ class Node(object):
         self.children = children
 """
 
+# 给一个树，求最大深度
+# while循环，每一次循环得出一层树
+
 
 class Solution(object):
     def maxDepth(self, root):
@@ -21,9 +24,6 @@ class Solution(object):
         #         if child:  # We should append it if it is not None or empty nodde in other words!
         #             newQ.append = child  # We append it
         # q = newQ
-
-
-
 
 
 # dfs

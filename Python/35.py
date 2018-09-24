@@ -1,4 +1,4 @@
-
+# 简单二分搜索
 
 def searchInsert(nums, target):
     """

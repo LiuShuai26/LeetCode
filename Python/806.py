@@ -1,3 +1,5 @@
+# 简单题
+# ord()函数为取该字母的序号
 
 
 class Solution(object):
@@ -12,10 +14,7 @@ class Solution(object):
         return lines, width
 
 
-
-
-
-class Solution:
+class Solution0:
     def numberOfLines(self, widths, S):
         """
         :type widths: List[int]

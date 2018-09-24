@@ -1,3 +1,6 @@
+# 基础技巧题
+
+
 class Solution:
     def subdomainVisits(self, cpdomains):
         """

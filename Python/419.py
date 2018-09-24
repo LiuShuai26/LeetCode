@@ -1,3 +1,5 @@
+# 查船头的数量
+
 class Solution:
     def countBattleships(self, board):
         """

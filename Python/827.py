@@ -5,7 +5,8 @@
 #         self.left = None
 #         self.right = None
 
-
+# 判断两颗树的叶子节点是否相同
+# 使用 yield
 
 
 

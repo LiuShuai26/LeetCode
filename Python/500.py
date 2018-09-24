@@ -1,3 +1,6 @@
+# 简单题
+
+
 class Solution:
     def findWords(self, words):
         """

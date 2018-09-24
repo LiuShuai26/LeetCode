@@ -1,3 +1,6 @@
+# 给一个数，求该数二进制形式时两个相邻1的最远距离长度是多少
+
+
 class Solution:
     def binaryGap(self, N):
         """

@@ -1,9 +1,12 @@
+# 修剪树，在不损失1的情况下尽可能的把0去掉
+
+
 # Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+class TreeNode:
+    def __init__(self, x):
+        self.val = x
+        self.left = None
+        self.right = None
 
 class Solution:
     def pruneTree(self, root):
