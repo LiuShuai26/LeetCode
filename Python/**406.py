@@ -1,3 +1,10 @@
+# 假设你有一个随机列表关于人站在一个队里
+# 每个人被表示为一对数字(h, k)h代表这个人的高度，看代表这个人前面有几个人比他高
+# 写一个算法重新排列这个队
+# 排列前：[[7, 0], [4, 4], [7, 1], [5, 0], [6, 1], [5, 2]]
+# 排列后：[[5, 0], [7, 0], [5, 2], [6, 1], [4, 4], [7, 1]]
+#
+
 class Solution(object):
     def reconstructQueue(self, people):
         if not people:
@@ -22,4 +29,4 @@ class Solution(object):
 
 
 s = Solution()
-s.reconstructQueue([[7, 0], [4, 4], [7, 1], [5, 0], [6, 1], [5, 2]])
+print(s.reconstructQueue([[7, 0], [4, 4], [7, 1], [5, 0], [6, 1], [5, 2]]))
